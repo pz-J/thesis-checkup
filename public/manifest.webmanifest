@@ -1,0 +1,18 @@
+{
+  "name": "论文体检 · Thesis Checkup",
+  "short_name": "论文体检",
+  "description": "本地运行的论文格式体检工具：解析 DOCX、按学校规则检查并修复可自动修复项。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#1b1a17",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

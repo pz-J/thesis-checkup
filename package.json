@@ -1,0 +1,29 @@
+{
+  "name": "thesis-checkup",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "description": "本地运行的论文格式体检工具：解析 DOCX、按学校规则体检、生成可视化报告并修复可自动修复项。",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --port 5188",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 5188",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "@vitejs/plugin-react": "^5.1.0",
+    "jsdom": "^27.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+*.local
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+apk/
+release/
+*.apk
+
